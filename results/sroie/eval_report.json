@@ -1,0 +1,2691 @@
+{
+  "summary": {
+    "dataset": "sroie",
+    "n_docs": 50,
+    "doc_accuracy": 0.02,
+    "fields": {
+      "company": {
+        "precision": 0.6,
+        "recall": 0.6,
+        "exact_match": 0.6,
+        "n_truth": 50,
+        "errors": [
+          {
+            "doc_id": "X00016469670",
+            "truth": "OJC MARKETING SDN BHD",
+            "pred": "TAN CHAY YEE"
+          },
+          {
+            "doc_id": "X00016469671",
+            "truth": "OJC MARKETING SDN BHD",
+            "pred": "TAN CHAY YEE"
+          },
+          {
+            "doc_id": "X51005268408",
+            "truth": "99 SPEED MART S/B",
+            "pred": "SPEED MART S/B (S19537-X)"
+          },
+          {
+            "doc_id": "X51005288570",
+            "truth": "SECURE PARKING CORPORATION S/B",
+            "pred": "SECURE PARKING"
+          },
+          {
+            "doc_id": "X51005337867",
+            "truth": "OLD TOWN KOPITAM SND BHD",
+            "pred": "OLDTOWN WHITE COFFEE"
+          },
+          {
+            "doc_id": "X51005361906",
+            "truth": "TED HENG STATIONERY & BOOKS",
+            "pred": "TEO HENG STATIONERY & BOOKS"
+          },
+          {
+            "doc_id": "X51005433556",
+            "truth": "YHM AEON TEBRAU CITY",
+            "pred": "AEON TEBRAU CITY"
+          },
+          {
+            "doc_id": "X51005442322",
+            "truth": "GRAND COMPANIONS SDN BHD",
+            "pred": "TONY ROMA'S AEON TEBRAU CITY"
+          },
+          {
+            "doc_id": "X51005442366",
+            "truth": "TRIPLE SIX POINT ENTERPRISE 666",
+            "pred": "TRIPLE SIX POINT ENTERPRISE"
+          },
+          {
+            "doc_id": "X51005442388",
+            "truth": "CONTENTO",
+            "pred": "MASAI JOHOR"
+          },
+          {
+            "doc_id": "X51005444040",
+            "truth": "BENS INDEPENDENT GROCER SDN. BHD",
+            "pred": "B.I.G."
+          },
+          {
+            "doc_id": "X51005444041",
+            "truth": "BENS INDEPENDENT GROCER SDN. BHD",
+            "pred": "B.I.G."
+          },
+          {
+            "doc_id": "X51005444044",
+            "truth": "99 SPEED MART S/B",
+            "pred": "SPEED MART S/B (519537-X)"
+          },
+          {
+            "doc_id": "X51005447841",
+            "truth": "PASARAYA BORONG PINTAR SDN BHD",
+            "pred": "PASARAYA BORONG PINTAR"
+          },
+          {
+            "doc_id": "X51005447842",
+            "truth": "PASARAYA BORONG PINTAR SDN BHD",
+            "pred": "PASARAYA BORONG PINTAR"
+          },
+          {
+            "doc_id": "X51005447844",
+            "truth": "RESTAURANT JIAWEI JIAWEI HOUSE",
+            "pred": "RESTAURANT JIAWEI"
+          },
+          {
+            "doc_id": "X51005447851",
+            "truth": "PASARAYA BORONG PINTAR SDN BHD",
+            "pred": "PASARAYA BORONG PINTAR"
+          },
+          {
+            "doc_id": "X51005447859",
+            "truth": "PASARAYA BORONG PINTAR SDN BHD",
+            "pred": "PASARAYA BORONG PINTAR"
+          },
+          {
+            "doc_id": "X51005568855",
+            "truth": "POPULAR BOOK CO. (M) SDN BHD",
+            "pred": "CO. (M) SDN BHD"
+          },
+          {
+            "doc_id": "X51005568866",
+            "truth": "POPULAR BOOK CO. (M) SDN BHD",
+            "pred": "CO. (M) SDN BHD"
+          }
+        ]
+      },
+      "date": {
+        "precision": 0.5957,
+        "recall": 0.56,
+        "exact_match": 0.56,
+        "n_truth": 50,
+        "errors": [
+          {
+            "doc_id": "X00016469671",
+            "truth": "2019-01-02",
+            "pred": "2019-02-01"
+          },
+          {
+            "doc_id": "X51005230605",
+            "truth": "2018-02-01",
+            "pred": "2018-01-02"
+          },
+          {
+            "doc_id": "X51005230621",
+            "truth": "2018-02-05",
+            "pred": "2018-05-05"
+          },
+          {
+            "doc_id": "X51005230659",
+            "truth": "2018-01-08",
+            "pred": "2018-08-01"
+          },
+          {
+            "doc_id": "X51005268408",
+            "truth": "2017-11-20",
+            "pred": "2023-11-17"
+          },
+          {
+            "doc_id": "X51005288570",
+            "truth": "2018-03-23",
+            "pred": "2023-03-23"
+          },
+          {
+            "doc_id": "X51005337867",
+            "truth": "2018-03-22",
+            "pred": "2023-03-22"
+          },
+          {
+            "doc_id": "X51005337877",
+            "truth": "2018-03-20",
+            "pred": "2018-03-03"
+          },
+          {
+            "doc_id": "X51005361923",
+            "truth": "2018-01-02",
+            "pred": "2018-02-01"
+          },
+          {
+            "doc_id": "X51005433548",
+            "truth": "2018-03-03",
+            "pred": "2023-03-03"
+          },
+          {
+            "doc_id": "X51005433556",
+            "truth": "2018-03-11",
+            "pred": "2018-11-03"
+          },
+          {
+            "doc_id": "X51005442322",
+            "truth": "2019-03-03",
+            "pred": "2023-03-03"
+          },
+          {
+            "doc_id": "X51005442388",
+            "truth": "2018-03-20",
+            "pred": "2023-03-20"
+          },
+          {
+            "doc_id": "X51005444040",
+            "truth": "2018-03-09",
+            "pred": "2023-03-09"
+          },
+          {
+            "doc_id": "X51005444041",
+            "truth": "2018-03-08",
+            "pred": "2023-08-03"
+          },
+          {
+            "doc_id": "X51005444044",
+            "truth": "2018-03-10",
+            "pred": "2023-03-15"
+          },
+          {
+            "doc_id": "X51005444046",
+            "truth": "2018-03-25",
+            "pred": "2023-03-25"
+          },
+          {
+            "doc_id": "X51005568855",
+            "truth": "2017-12-23",
+            "pred": "2023-12-23"
+          },
+          {
+            "doc_id": "X51005568885",
+            "truth": "2017-07-10",
+            "pred": "2017-10-07"
+          },
+          {
+            "doc_id": "X51005568887",
+            "truth": "2017-04-26",
+            "pred": null
+          },
+          {
+            "doc_id": "X51005568889",
+            "truth": "2017-02-11",
+            "pred": null
+          },
+          {
+            "doc_id": "X51005568890",
+            "truth": "2017-01-05",
+            "pred": null
+          }
+        ]
+      },
+      "address": {
+        "precision": 0.04,
+        "recall": 0.04,
+        "exact_match": 0.04,
+        "n_truth": 50,
+        "errors": [
+          {
+            "doc_id": "X00016469670",
+            "truth": "NO 2 & 4, JALAN BAYU 4, BANDAR SERI ALAM, B1750 MASAI, JOHOR",
+            "pred": "2 & 4 Bandar Seri Alam, 81750 Masai, Bandar Seri Alam"
+          },
+          {
+            "doc_id": "X00016469671",
+            "truth": "NO 2 & 4, JALAN BAYU 4, BANDAR SERI ALAM, 81750 MASAI, JOHOR",
+            "pred": "2 & 4 Bandar Seri Alam, 81750 Masai, Bandar Seri Alam"
+          },
+          {
+            "doc_id": "X51005230605",
+            "truth": "KM 458.4 BKT LANJAN UTARA, L/RAYA UTARA SELATAN,SG BULOH 47000 SUNGAI BUL",
+            "pred": "KM 458.4 BKT LANJAN UTARA, L/RAYA UTARA SELATAN 47000 SUNGAI BUL"
+          },
+          {
+            "doc_id": "X51005230616",
+            "truth": "LEVEL 6, BANGUNAN TH, DAMANSARA UPTOWN3 NO.3, JALAN SS21/39,47400 PETALING JAYA SELANGOR",
+            "pred": "No.3 Selangor, (65351-M) Formerly Known As Golden Arches Restaurants SDN BHD, Licensee of McDonald's"
+          },
+          {
+            "doc_id": "X51005230621",
+            "truth": "LOT 13, JALAN IPOH, KG BATU 30, ULU YAM LAMA 44300 BTG KALI, SELANGOR.",
+            "pred": "LOT 13, SIN LIANHAP SDN BHD, KG BATU 30, 44300 BTG KALI"
+          },
+          {
+            "doc_id": "X51005230648",
+            "truth": "47, JALAN MERANTI 1, SEK. 3, BANDAR UTAMA BATANG KALI, 44300 BATANG KALI, SELANGOR.",
+            "pred": "BANDAR UTAMA BATANG KALI 44300 BATANG KALI"
+          },
+          {
+            "doc_id": "X51005230657",
+            "truth": "47, JALAN MERANTI 1, SEK. 3, BANDAR UTAMA BATANG KALI, 44300 BATANG KALI, SELANGOR.",
+            "pred": "BANDAR UTAMA BATANG KALI 44300 BATANG KALI"
+          },
+          {
+            "doc_id": "X51005230659",
+            "truth": "NO. 5-7, JALAN MAHAGONI 7/1, SEKYSEN 4, BANDAR UTAMA, 44300 BATANG KALI, SELANGOR.",
+            "pred": "NO. 5-7 SEKYSEN 4, BATANG KALI"
+          },
+          {
+            "doc_id": "X51005268275",
+            "truth": "NO: 28, JALAN ASTANA 1C, BANDAR BUKIT RAJA, 41050 KLANG SELANGOR D.E, MALAYSIA",
+            "pred": "NO: 28, Bandar Bukit Raja, KLANG SELANGOR D. E, RC NO. : (1072825-A)"
+          },
+          {
+            "doc_id": "X51005268408",
+            "truth": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1413-SETIA ALAM 2",
+            "pred": "TAMAN BERKELEY 41150 KLANG"
+          },
+          {
+            "doc_id": "X51005288570",
+            "truth": "RIVERWALK VILLAGE BATU 3, JALAN IPOH 51200 KL.",
+            "pred": "Riverwalk Village, Batu 3, 51200 KL"
+          },
+          {
+            "doc_id": "X51005301666",
+            "truth": "NO: 28, JALAN ASTANA 1C, BANDAR BUKIT RAJA, 41050 KLANG SELANGOR D.E, MALAYSIA",
+            "pred": "NO: 28, Bandar Bukit Raja, KLANG SELANGOR D. E, RC NO. : (1072825-A)"
+          },
+          {
+            "doc_id": "X51005337867",
+            "truth": "SRI RAMPAI",
+            "pred": "SRI RAMPAI, TEL: 03-4148 1876"
+          },
+          {
+            "doc_id": "X51005337877",
+            "truth": "22A-1, JALAN 17/54, SECTION 17, 46400 PETALING JAYA, SELANGOR.",
+            "pred": "22A-1, SECTION 17, 46400 PETALING JAYA, SELANGOR"
+          },
+          {
+            "doc_id": "X51005361906",
+            "truth": "NO. 53, JALAN BESAR, 45600 BATANG BERJUNTAI SELANGOR DARUL EHSAN",
+            "pred": "NO. 53 Selangor Darul Ehsan"
+          },
+          {
+            "doc_id": "X51005361908",
+            "truth": "NO. 53, JALAN BESAR, 45600 BATANG BERJUNTAI SELANGOR DARUL EHSAN",
+            "pred": "NO. 53 SELANGOR DARUL EHSAN"
+          },
+          {
+            "doc_id": "X51005361912",
+            "truth": "NO. 53, JALAN BESAR, 45600 BATANG BERJUNTAI SELANGOR DARUL EHSAN",
+            "pred": "NO. 53 SELANGOR DARUL EHSAN"
+          },
+          {
+            "doc_id": "X51005361923",
+            "truth": "8 & 10, JALAN IJOK PERMAI 1, PUSAT NIAGA IJOK PERMAI, 48000 IJOK, SELANGOR.",
+            "pred": "8 & 10 PUSAT NIAGA IJOK PERMAI"
+          },
+          {
+            "doc_id": "X51005365187",
+            "truth": "NO.20. GROUND FLOOR, JALAN BS 10/6 TAMAN BUKIT SERDANG, SEKSYEN 10, 43300 SERI KEMBANGAN. SELANGOR DARUL EHSAN",
+            "pred": "NO.20. GROUND FLOOR, JALAN BS 10/6 TAMAN BUKIT SERDANG, SEKSYEN 10, SELANGOR DARUL EHSAN"
+          },
+          {
+            "doc_id": "X51005433518",
+            "truth": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR",
+            "pred": "TAMPOI"
+          },
+          {
+            "doc_id": "X51005433543",
+            "truth": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR",
+            "pred": "TAMPOI"
+          },
+          {
+            "doc_id": "X51005433548",
+            "truth": "379, JALAN PERMAS SATU, BANDAR BARU PERMAS JAYA 81750 PLENTONG, JOHOR.",
+            "pred": "BANDAR BARU PERMAS JAYA, B1750 PLENTONG"
+          },
+          {
+            "doc_id": "X51005433556",
+            "truth": "S117, SECOND FLOOR, AEON TEBRAU CITY, 1, JALAN DESA TEBRAU, TAMAN DESA TEBRAU, 81100 JOHOR BAHRU, JOHOR.",
+            "pred": "S117, AEON TEBRAU CITY, JOHOR BAHRU 81100"
+          },
+          {
+            "doc_id": "X51005442322",
+            "truth": "LOT G112, AEON MALL TEBRAU CITY NO 1 JALAN DESA TEBRAU 81100 JOHOR BAHRU",
+            "pred": "No 1 JALAN DESA TEBRAU, 81100 JOHOR BAHRU"
+          },
+          {
+            "doc_id": "X51005442334",
+            "truth": "12, JALAN TAMPOI 7/4,KAWASAN PARINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR",
+            "pred": "TAMPOI"
+          },
+          {
+            "doc_id": "X51005442343",
+            "truth": "NO 4,JALAN PERJIRANAN 10, TAMAN AIR BIRU, 81700 PASIR GUDANG, JOHOR.",
+            "pred": "No 4, TAMAN AIR BIRU, 81700 PASIR GUDANG, JOHOR"
+          },
+          {
+            "doc_id": "X51005442366",
+            "truth": "NO 14& 16 JALAN PERMAS 4/3 BANDAR BARU PERMAS JAY",
+            "pred": "NO 14& 16 JALAN PERMAS 4/3 BANDAR BARU PERMAS JAYA"
+          },
+          {
+            "doc_id": "X51005442375",
+            "truth": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR",
+            "pred": "TAMPOI"
+          },
+          {
+            "doc_id": "X51005442382",
+            "truth": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR",
+            "pred": "TAMPOL"
+          },
+          {
+            "doc_id": "X51005442388",
+            "truth": "15, JALAN PERMAS 10/7,PERMAS 81750 MASAI JOHOR",
+            "pred": "81750 MASAI JOHOR"
+          },
+          {
+            "doc_id": "X51005444040",
+            "truth": "LOT 6, JALAN BATAI, PLAZA BATAI, DAMANSARA HEIGHTS 50490, KUALA LUMPUR",
+            "pred": "LOT 6 PLAZA BATAI, 50490"
+          },
+          {
+            "doc_id": "X51005444041",
+            "truth": "LOT 6, JALAN BATAI, PLAZA BATAI, DAMANSARA HEIGHTS 50490, KUALA LUMPUR",
+            "pred": "LOT 6 PLAZA BATAI, 50490"
+          },
+          {
+            "doc_id": "X51005444044",
+            "truth": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1572-TMN BKT PANDAN",
+            "pred": "TAMAN BERKELEY, 41150 KLANG, 1572-TMN BKT PANDAN"
+          },
+          {
+            "doc_id": "X51005444046",
+            "truth": "NO 4, DESA PANDAN, OFF KAMPONG PANDAN, 55100 KUALA LUMPUR",
+            "pred": "No 4, 55100 Kuala Lumpur"
+          },
+          {
+            "doc_id": "X51005447842",
+            "truth": "NO 19-G& 19-1& 19-2 JALAN TASIK UTAMA 4, MEDAN NIAGA TASIK DAMAI",
+            "pred": "No 19-G & 19-1-2 JALAN TASIK UTAMA 4, MEDAN NIAGA TASIK DAMAI"
+          },
+          {
+            "doc_id": "X51005447844",
+            "truth": "13, JLN TASIK UTAMA 8 MEDAN NIAGA DAMAI SG BESI",
+            "pred": "13 Medan Niaga Damai SG BESI, 57000 KL"
+          },
+          {
+            "doc_id": "X51005447851",
+            "truth": "NO 19-G&19-1&19-2 JALAN TASIK UTAMA 4, MEDAN NIAGA TASIK DAMAI",
+            "pred": "No 19-G & 19-1-2 JALAN TASIK UTAMA 4, MEDAN NIAGA TASIK DAMAI"
+          },
+          {
+            "doc_id": "X51005447859",
+            "truth": "NO 19-G& 19-1& 19-2 JALAN TASIK UTAMA 4, MEDAN NIAGA TASIK DAMAI",
+            "pred": "No 19-G & 19-1-2 JALAN TASIK UTAMA 4, MEDAN NIAGA TASIK DAMAI"
+          },
+          {
+            "doc_id": "X51005568855",
+            "truth": "NO 8, JALAN 7/118B, DESA TUN RAZAK 56000 KUALA LUMPUR, MALAYSIA",
+            "pred": "No 8, 56000 Kuala Lumpur"
+          },
+          {
+            "doc_id": "X51005568866",
+            "truth": "NO 8, JALAN 7/118B, DESA TUN RAZAK 56000 KUALA LUMPUR, MALAYSIA",
+            "pred": "No 8, 56000 KUALA LUMPUR"
+          },
+          {
+            "doc_id": "X51005568885",
+            "truth": "NO.7-1, JALAN PUTERI 7/11, BANDAR PUTERI, 47100 PUCHONG, BELANGOR",
+            "pred": "No.7-1, Bandar Puteri, 47100 Puchong"
+          },
+          {
+            "doc_id": "X51005568887",
+            "truth": "NO 37, JALAN MANIS 7, TAMAN SEGAR, 56100 CHERAS, KUALA LUMPUR.",
+            "pred": "No 37, 56100 Cheras, +603-9130 2672"
+          },
+          {
+            "doc_id": "X51005568889",
+            "truth": "NO 37, JALAN MANIS 7, TAMAN SEGAR, 56100 CHERAS, KUALA LUMPUR.",
+            "pred": "No 37, 56100 Cheras, +603-9130 2672"
+          },
+          {
+            "doc_id": "X51005568890",
+            "truth": "NO 37, JALAN MANIS 7, TAMAN SEGAR, 56100 CHERAS, KUALA LUMPUR.",
+            "pred": "No 37, 56100 Cheras, +603-9130 2672"
+          },
+          {
+            "doc_id": "X51005568892",
+            "truth": "NO.7-1, JALAN PUTERI 7/11, BANDAR PUTERI, 47100 PUCHONG, BELANGOR",
+            "pred": "No.7-1, Bandar Puteri, 47100 Puchong"
+          },
+          {
+            "doc_id": "X51005568894",
+            "truth": "14 JALAN MANIS 4 TAMAN SEGAR 56100 KL",
+            "pred": "1070687-M"
+          },
+          {
+            "doc_id": "X51005568895",
+            "truth": "14 JALAN MANIS 4 TAMAN SEGAR 56100 KL",
+            "pred": "1070687-M 14 JALAN MANIS 4 TAMAN SEGAR 56100 KL"
+          },
+          {
+            "doc_id": "X51005577191",
+            "truth": "NO. 42, JALAN PBS 14/11, TAMAN PERINDUSTRIAN BUKIT SERDANG, 43300 SERI KEMBANGAN, SELANGOR",
+            "pred": "No. 42 Taman Perindustrian Bukit Serdang, 43300 Seri Kembang, Seringkli, Selangor"
+          }
+        ]
+      },
+      "total": {
+        "precision": 0.86,
+        "recall": 0.86,
+        "exact_match": 0.86,
+        "n_truth": 50,
+        "errors": [
+          {
+            "doc_id": "X51005288570",
+            "truth": 1.0,
+            "pred": 1.06
+          },
+          {
+            "doc_id": "X51005337867",
+            "truth": 30.25,
+            "pred": 30.24
+          },
+          {
+            "doc_id": "X51005444044",
+            "truth": 5.35,
+            "pred": 6.65
+          },
+          {
+            "doc_id": "X51005444046",
+            "truth": 66.15,
+            "pred": 66.17
+          },
+          {
+            "doc_id": "X51005447842",
+            "truth": 0.9,
+            "pred": 5.0
+          },
+          {
+            "doc_id": "X51005447851",
+            "truth": 1.7,
+            "pred": 100.0
+          },
+          {
+            "doc_id": "X51005447859",
+            "truth": 1.45,
+            "pred": 10.0
+          }
+        ]
+      }
+    },
+    "line_items": null,
+    "routing": {
+      "review_rate": 0.74,
+      "auto_accept_rate": 0.26,
+      "silent_wrong_docs": [
+        "X51005268275",
+        "X51005268408",
+        "X51005301666",
+        "X51005337877",
+        "X51005361906",
+        "X51005442322",
+        "X51005442343",
+        "X51005442366",
+        "X51005444040",
+        "X51005444046",
+        "X51005447841",
+        "X51005568866",
+        "X51005568894"
+      ],
+      "silent_wrong_rate_of_accepted": 1.0,
+      "ambiguous_docs_caught": "0/0"
+    },
+    "repairs": {
+      "attempted": 0,
+      "improved": 0
+    },
+    "perf": {
+      "wall_s_total": 61.6,
+      "latency_s_mean": 1.23,
+      "latency_s_p95": 2.31,
+      "prompt_tokens_total": 47942,
+      "completion_tokens_total": 7458,
+      "tokens_per_doc_mean": 1108.0,
+      "completion_tok_s_incl_prefill": 121.1
+    },
+    "cost": {
+      "local": "electricity negligible; see perf for throughput",
+      "cloud_estimates_per_doc": {
+        "Claude Haiku 4.5": {
+          "usd_per_doc": 0.001705,
+          "source": "anthropic.com/pricing, est. Jul 2026"
+        },
+        "Claude Sonnet 4.5": {
+          "usd_per_doc": 0.005114,
+          "source": "anthropic.com/pricing, est. Jul 2026"
+        },
+        "GPT-5 mini": {
+          "usd_per_doc": 0.000538,
+          "source": "openai.com/api/pricing, est. Jul 2026"
+        },
+        "Gemini 2.5 Flash": {
+          "usd_per_doc": 0.000661,
+          "source": "ai.google.dev/pricing, est. Jul 2026"
+        }
+      }
+    }
+  },
+  "docs": [
+    {
+      "doc_id": "X00016469670",
+      "route": "review",
+      "confidence": 0.83,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "TAN CHAY YEE",
+        "date": "2019-01-15",
+        "address": "2 & 4 Bandar Seri Alam, 81750 Masai, Bandar Seri Alam",
+        "total": 193.0
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 937,
+      "completion_tokens": 111,
+      "latency_s": 1.08,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X00016469671",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "TAN CHAY YEE",
+        "date": "2019-02-01",
+        "address": "2 & 4 Bandar Seri Alam, 81750 Masai, Bandar Seri Alam",
+        "total": 170.0
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 831,
+      "completion_tokens": 119,
+      "latency_s": 0.98,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005200931",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "PERNIAGAAN ZHENG HUI",
+        "date": "2018-02-09",
+        "address": "NO.59 JALAN PERMAS 9/5 BANDAR BARU PERMAS JAYA, 81750 JOHOR BAHRU",
+        "total": 436.2
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1321,
+      "completion_tokens": 170,
+      "latency_s": 1.45,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": true,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": true
+    },
+    {
+      "doc_id": "X51005230605",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "PETRON BKT LANJAN SB",
+        "date": "2018-01-02",
+        "address": "KM 458.4 BKT LANJAN UTARA, L/RAYA UTARA SELATAN 47000 SUNGAI BUL",
+        "total": 4.9
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 827,
+      "completion_tokens": 106,
+      "latency_s": 0.89,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005230616",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "GERBANG ALAF RESTAURANTS SDN BHD",
+        "date": "2018-01-18",
+        "address": "No.3 Selangor, (65351-M) Formerly Known As Golden Arches Restaurants SDN BHD, Licensee of McDonald's",
+        "total": 38.9
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1064,
+      "completion_tokens": 115,
+      "latency_s": 1.07,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005230621",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "SIN LIANHAP SDN BHD",
+        "date": "2018-05-05",
+        "address": "LOT 13, SIN LIANHAP SDN BHD, KG BATU 30, 44300 BTG KALI",
+        "total": 7.3
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 915,
+      "completion_tokens": 188,
+      "latency_s": 1.38,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005230648",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "Cross Channel Network SDN. BHD.",
+        "date": "2018-01-29",
+        "address": "BANDAR UTAMA BATANG KALI 44300 BATANG KALI",
+        "total": 6.35
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 885,
+      "completion_tokens": 113,
+      "latency_s": 0.94,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005230657",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "Cross Channel Network SDN. BHD.",
+        "date": "2017-12-31",
+        "address": "BANDAR UTAMA BATANG KALI 44300 BATANG KALI",
+        "total": 7.95
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 993,
+      "completion_tokens": 108,
+      "latency_s": 1.02,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005230659",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "SWC ENTERPRISE SDN BHD",
+        "date": "2018-08-01",
+        "address": "NO. 5-7 SEKYSEN 4, BATANG KALI",
+        "total": 8.0
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 739,
+      "completion_tokens": 121,
+      "latency_s": 0.97,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005268275",
+      "route": "auto",
+      "confidence": 0.915,
+      "reasons": [
+        "model doubts field: self_check_failed"
+      ],
+      "invoice": {
+        "company": "LIGHTROOM GALLERY SDN BHD",
+        "date": "2017-11-20",
+        "address": "NO: 28, Bandar Bukit Raja, KLANG SELANGOR D. E, RC NO. : (1072825-A)",
+        "total": 278.8
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "self_check_failed"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1377,
+      "completion_tokens": 336,
+      "latency_s": 2.37,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005268408",
+      "route": "auto",
+      "confidence": 0.915,
+      "reasons": [
+        "model doubts field: self_check_failed"
+      ],
+      "invoice": {
+        "company": "SPEED MART S/B (S19537-X)",
+        "date": "2023-11-17",
+        "address": "TAMAN BERKELEY 41150 KLANG",
+        "total": 169.8
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "self_check_failed"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 854,
+      "completion_tokens": 318,
+      "latency_s": 2.17,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005288570",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "SECURE PARKING",
+        "date": "2023-03-23",
+        "address": "Riverwalk Village, Batu 3, 51200 KL",
+        "total": 1.06
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 634,
+      "completion_tokens": 78,
+      "latency_s": 0.68,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": false,
+        "address": false,
+        "total": false
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005301666",
+      "route": "auto",
+      "confidence": 0.915,
+      "reasons": [
+        "model doubts field: self_check_failed"
+      ],
+      "invoice": {
+        "company": "LIGHTROOM GALLERY SDN BHD",
+        "date": "2017-11-20",
+        "address": "NO: 28, Bandar Bukit Raja, KLANG SELANGOR D. E, RC NO. : (1072825-A)",
+        "total": 278.8
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "self_check_failed"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1385,
+      "completion_tokens": 336,
+      "latency_s": 2.24,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005337867",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "OLDTOWN WHITE COFFEE",
+        "date": "2023-03-22",
+        "address": "SRI RAMPAI, TEL: 03-4148 1876",
+        "total": 30.24
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 953,
+      "completion_tokens": 120,
+      "latency_s": 0.99,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": false,
+        "address": false,
+        "total": false
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005337877",
+      "route": "auto",
+      "confidence": 0.915,
+      "reasons": [
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "UROKO JAPANESE CUISINE SDN BHD",
+        "date": "2018-03-03",
+        "address": "22A-1, SECTION 17, 46400 PETALING JAYA, SELANGOR",
+        "total": 53.0
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 855,
+      "completion_tokens": 111,
+      "latency_s": 0.98,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005361906",
+      "route": "auto",
+      "confidence": 1.0,
+      "reasons": [],
+      "invoice": {
+        "company": "TEO HENG STATIONERY & BOOKS",
+        "date": "2018-01-27",
+        "address": "NO. 53 Selangor Darul Ehsan",
+        "total": 27.35
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [],
+      "chunks": 1,
+      "prompt_tokens": 1139,
+      "completion_tokens": 73,
+      "latency_s": 0.94,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005361908",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "TEO HENG STATIONERY & BOOKS",
+        "date": "2018-03-15",
+        "address": "NO. 53 SELANGOR DARUL EHSAN",
+        "total": 127.2
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 919,
+      "completion_tokens": 157,
+      "latency_s": 1.2,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005361912",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "TEO HENG STATIONERY & BOOKS",
+        "date": "2018-01-29",
+        "address": "NO. 53 SELANGOR DARUL EHSAN",
+        "total": 1.05
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 917,
+      "completion_tokens": 117,
+      "latency_s": 0.96,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005361923",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "SWC ENTERPRISE SDN BHD",
+        "date": "2018-02-01",
+        "address": "8 & 10 PUSAT NIAGA IJOK PERMAI",
+        "total": 4.2
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 700,
+      "completion_tokens": 97,
+      "latency_s": 0.82,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005365187",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date"
+      ],
+      "invoice": {
+        "company": "F&P PHARMACY",
+        "date": "2018-03-02",
+        "address": "NO.20. GROUND FLOOR, JALAN BS 10/6 TAMAN BUKIT SERDANG, SEKSYEN 10, SELANGOR DARUL EHSAN",
+        "total": 31.9
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1349,
+      "completion_tokens": 120,
+      "latency_s": 1.2,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005433518",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "date": "2018-03-07",
+        "address": "TAMPOI",
+        "total": 8.2
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 799,
+      "completion_tokens": 81,
+      "latency_s": 0.74,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005433543",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "date": "2018-03-13",
+        "address": "TAMPOI",
+        "total": 8.2
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 799,
+      "completion_tokens": 81,
+      "latency_s": 0.77,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005433548",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "PASAR MINI JIN SENG",
+        "date": "2023-03-03",
+        "address": "BANDAR BARU PERMAS JAYA, B1750 PLENTONG",
+        "total": 33.8
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 896,
+      "completion_tokens": 148,
+      "latency_s": 1.23,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005433556",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "AEON TEBRAU CITY",
+        "date": "2018-11-03",
+        "address": "S117, AEON TEBRAU CITY, JOHOR BAHRU 81100",
+        "total": 49.7
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1033,
+      "completion_tokens": 155,
+      "latency_s": 1.32,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005442322",
+      "route": "auto",
+      "confidence": 0.915,
+      "reasons": [
+        "model doubts field: self_check_failed"
+      ],
+      "invoice": {
+        "company": "TONY ROMA'S AEON TEBRAU CITY",
+        "date": "2023-03-03",
+        "address": "No 1 JALAN DESA TEBRAU, 81100 JOHOR BAHRU",
+        "total": 269.4
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "self_check_failed"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1335,
+      "completion_tokens": 327,
+      "latency_s": 2.3,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005442334",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "date": "2018-03-26",
+        "address": "TAMPOI",
+        "total": 8.2
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 797,
+      "completion_tokens": 81,
+      "latency_s": 0.77,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005442343",
+      "route": "auto",
+      "confidence": 0.915,
+      "reasons": [
+        "model doubts field: self_check_failed"
+      ],
+      "invoice": {
+        "company": "YONG TAT HARDWARE TRADING",
+        "date": "2018-03-13",
+        "address": "No 4, TAMAN AIR BIRU, 81700 PASIR GUDANG, JOHOR",
+        "total": 72.0
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "self_check_failed"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1022,
+      "completion_tokens": 328,
+      "latency_s": 2.31,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005442366",
+      "route": "auto",
+      "confidence": 0.915,
+      "reasons": [
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "TRIPLE SIX POINT ENTERPRISE",
+        "date": "2018-03-22",
+        "address": "NO 14& 16 JALAN PERMAS 4/3 BANDAR BARU PERMAS JAYA",
+        "total": 22.6
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 801,
+      "completion_tokens": 103,
+      "latency_s": 0.86,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005442375",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "date": "2018-03-25",
+        "address": "TAMPOI",
+        "total": 8.5
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 799,
+      "completion_tokens": 81,
+      "latency_s": 0.73,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005442382",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "date": "2018-03-20",
+        "address": "TAMPOL",
+        "total": 6.6
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 744,
+      "completion_tokens": 80,
+      "latency_s": 0.71,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005442388",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "MASAI JOHOR",
+        "date": "2023-03-20",
+        "address": "81750 MASAI JOHOR",
+        "total": 21.6
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 564,
+      "completion_tokens": 75,
+      "latency_s": 0.67,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005444040",
+      "route": "auto",
+      "confidence": 0.915,
+      "reasons": [
+        "model doubts field: self_check_failed"
+      ],
+      "invoice": {
+        "company": "B.I.G.",
+        "date": "2023-03-09",
+        "address": "LOT 6 PLAZA BATAI, 50490",
+        "total": 133.7
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "self_check_failed"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 997,
+      "completion_tokens": 309,
+      "latency_s": 2.28,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005444041",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "B.I.G.",
+        "date": "2023-08-03",
+        "address": "LOT 6 PLAZA BATAI, 50490",
+        "total": 81.0
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1211,
+      "completion_tokens": 90,
+      "latency_s": 1.01,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005444044",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "SPEED MART S/B (519537-X)",
+        "date": "2023-03-15",
+        "address": "TAMAN BERKELEY, 41150 KLANG, 1572-TMN BKT PANDAN",
+        "total": 6.65
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 672,
+      "completion_tokens": 97,
+      "latency_s": 0.8,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": false,
+        "address": false,
+        "total": false
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005444046",
+      "route": "auto",
+      "confidence": 0.915,
+      "reasons": [
+        "model doubts field: self_check_failed"
+      ],
+      "invoice": {
+        "company": "STAR GROCER SDN BHD",
+        "date": "2023-03-25",
+        "address": "No 4, 55100 Kuala Lumpur",
+        "total": 66.17
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "self_check_failed"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1130,
+      "completion_tokens": 314,
+      "latency_s": 2.76,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": false,
+        "address": false,
+        "total": false
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005447841",
+      "route": "auto",
+      "confidence": 0.915,
+      "reasons": [
+        "model doubts field: address"
+      ],
+      "invoice": {
+        "company": "PASARAYA BORONG PINTAR",
+        "date": "2018-03-09",
+        "address": "No 19-G & 19-1 & 19-2 JALAN TASIK UTAMA 4, MEDAN NIAGA TASIK DAMAI",
+        "total": 10.4
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1079,
+      "completion_tokens": 104,
+      "latency_s": 1.07,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": true,
+        "address": true,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005447842",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "PASARAYA BORONG PINTAR",
+        "date": "2018-03-14",
+        "address": "No 19-G & 19-1-2 JALAN TASIK UTAMA 4, MEDAN NIAGA TASIK DAMAI",
+        "total": 5.0
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 884,
+      "completion_tokens": 125,
+      "latency_s": 1.02,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": true,
+        "address": false,
+        "total": false
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005447844",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "RESTAURANT JIAWEI",
+        "date": "2018-02-23",
+        "address": "13 Medan Niaga Damai SG BESI, 57000 KL",
+        "total": 110.0
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 913,
+      "completion_tokens": 116,
+      "latency_s": 1.01,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005447851",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "PASARAYA BORONG PINTAR",
+        "date": "2018-01-30",
+        "address": "No 19-G & 19-1-2 JALAN TASIK UTAMA 4, MEDAN NIAGA TASIK DAMAI",
+        "total": 100.0
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 884,
+      "completion_tokens": 129,
+      "latency_s": 1.04,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": true,
+        "address": false,
+        "total": false
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005447859",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "PASARAYA BORONG PINTAR",
+        "date": "2018-02-14",
+        "address": "No 19-G & 19-1-2 JALAN TASIK UTAMA 4, MEDAN NIAGA TASIK DAMAI",
+        "total": 10.0
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 890,
+      "completion_tokens": 121,
+      "latency_s": 1.02,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": true,
+        "address": false,
+        "total": false
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005568855",
+      "route": "review",
+      "confidence": 0.83,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "CO. (M) SDN BHD",
+        "date": "2023-12-23",
+        "address": "No 8, 56000 Kuala Lumpur",
+        "total": 140.65
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1542,
+      "completion_tokens": 90,
+      "latency_s": 1.16,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005568866",
+      "route": "auto",
+      "confidence": 0.915,
+      "reasons": [
+        "model doubts field: self_check_failed"
+      ],
+      "invoice": {
+        "company": "CO. (M) SDN BHD",
+        "date": "2017-08-20",
+        "address": "No 8, 56000 KUALA LUMPUR",
+        "total": 5.05
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "self_check_failed"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1033,
+      "completion_tokens": 315,
+      "latency_s": 2.21,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": false,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005568885",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "EVERGREEN LIGHT SDN BHD",
+        "date": "2017-10-07",
+        "address": "No.7-1, Bandar Puteri, 47100 Puchong",
+        "total": 56.0
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 826,
+      "completion_tokens": 127,
+      "latency_s": 1.05,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005568887",
+      "route": "review",
+      "confidence": 0.7,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total",
+        "missing key field: date"
+      ],
+      "invoice": {
+        "company": "HON HWA HARDWARE TRADING",
+        "date": null,
+        "address": "No 37, 56100 Cheras, +603-9130 2672",
+        "total": 7.2
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 852,
+      "completion_tokens": 88,
+      "latency_s": 0.85,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005568889",
+      "route": "review",
+      "confidence": 0.7,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total",
+        "missing key field: date"
+      ],
+      "invoice": {
+        "company": "HON HWA HARDWARE TRADING",
+        "date": null,
+        "address": "No 37, 56100 Cheras, +603-9130 2672",
+        "total": 19.6
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 848,
+      "completion_tokens": 88,
+      "latency_s": 0.84,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005568890",
+      "route": "review",
+      "confidence": 0.7,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "missing key field: date"
+      ],
+      "invoice": {
+        "company": "HON HWA HARDWARE TRADING",
+        "date": null,
+        "address": "No 37, 56100 Cheras, +603-9130 2672",
+        "total": 5.0
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 820,
+      "completion_tokens": 84,
+      "latency_s": 0.81,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": false,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005568892",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "EVERGREEN LIGHT SDN BHD",
+        "date": "2017-09-18",
+        "address": "No.7-1, Bandar Puteri, 47100 Puchong",
+        "total": 26.0
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 828,
+      "completion_tokens": 156,
+      "latency_s": 1.26,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005568894",
+      "route": "auto",
+      "confidence": 0.915,
+      "reasons": [
+        "model doubts field: self_check_failed"
+      ],
+      "invoice": {
+        "company": "VIVOPAC MARKETING SDN BHD",
+        "date": "2017-01-17",
+        "address": "1070687-M",
+        "total": 46.65
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "self_check_failed"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1274,
+      "completion_tokens": 308,
+      "latency_s": 2.43,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005568895",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "VIVOPAC MARKETING SDN BHD",
+        "date": "2017-09-13",
+        "address": "1070687-M 14 JALAN MANIS 4 TAMAN SEGAR 56100 KL",
+        "total": 52.45
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 1201,
+      "completion_tokens": 119,
+      "latency_s": 1.1,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    },
+    {
+      "doc_id": "X51005577191",
+      "route": "review",
+      "confidence": 0.75,
+      "reasons": [
+        "model doubts field: address",
+        "model doubts field: company",
+        "model doubts field: date",
+        "model doubts field: total"
+      ],
+      "invoice": {
+        "company": "FY EAGLE ENTERPRISE",
+        "date": "2017-12-07",
+        "address": "No. 42 Taman Perindustrian Bukit Serdang, 43300 Seri Kembang, Seringkli, Selangor",
+        "total": 10.0
+      },
+      "rule_errors": [],
+      "repaired": false,
+      "repair_attempted": false,
+      "doubtful_fields": [
+        "address",
+        "company",
+        "date",
+        "total"
+      ],
+      "chunks": 1,
+      "prompt_tokens": 875,
+      "completion_tokens": 124,
+      "latency_s": 1.03,
+      "truth_route": null,
+      "ambiguous": false,
+      "fields_correct": {
+        "company": true,
+        "date": true,
+        "address": false,
+        "total": true
+      },
+      "line_items": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "doc_correct": false
+    }
+  ]
+}

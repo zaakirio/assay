@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+# SROIE 2019 is downloaded on demand (scripts/fetch_sroie.py), not redistributed.
+data/sroie/

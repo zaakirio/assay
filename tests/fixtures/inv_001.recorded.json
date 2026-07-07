@@ -1,0 +1,42 @@
+{
+  "vendor": "Northwind Fastener Supply Ltd",
+  "invoice_number": "IN55087A",
+  "invoice_date": "2026-01-18",
+  "due_date": "2026-02-17",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Nitrile gloves, size L (box 100)",
+      "quantity": 5,
+      "unit_price": 9.97,
+      "amount": 49.85
+    },
+    {
+      "description": "M6 hex bolts, zinc plated (box 500)",
+      "quantity": 44,
+      "unit_price": 9.12,
+      "amount": 401.28
+    },
+    {
+      "description": "Stainless worktop bracket 300mm",
+      "quantity": 70,
+      "unit_price": 6.22,
+      "amount": 435.40
+    },
+    {
+      "description": "Anti-static bubble wrap 1.2m x 50m",
+      "quantity": 4,
+      "unit_price": 30.05,
+      "amount": 120.20
+    },
+    {
+      "description": "Sandwich platter, mixed (serves 10)",
+      "quantity": 1,
+      "unit_price": 49.64,
+      "amount": 49.64
+    }
+  ],
+  "subtotal": 1056.37,
+  "tax": 211.27,
+  "total": 1267.64
+}

@@ -1,0 +1,31 @@
+{
+  "doc_id": "inv_013",
+  "template": 2,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Northwind Fastener Supply Ltd",
+    "invoice_number": "SI/027635",
+    "invoice_date": "2026-03-26",
+    "due_date": null,
+    "currency": "GBP",
+    "line_items": [
+      {
+        "description": "Ergonomic task chair, charcoal",
+        "quantity": 3.0,
+        "unit_price": 197.62,
+        "amount": 592.86
+      },
+      {
+        "description": "Pallet wrap, 500mm x 300m",
+        "quantity": 5.0,
+        "unit_price": 13.05,
+        "amount": 65.25
+      }
+    ],
+    "subtotal": 658.11,
+    "tax": null,
+    "total": 658.11
+  }
+}

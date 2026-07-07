@@ -1,0 +1,49 @@
+{
+  "doc_id": "inv_019",
+  "template": 3,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Cedar Hollow Catering LLC",
+    "invoice_number": "INV-55824",
+    "invoice_date": "2026-02-21",
+    "due_date": null,
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Machine coolant concentrate 20L",
+        "quantity": 1.0,
+        "unit_price": 71.61,
+        "amount": 71.61
+      },
+      {
+        "description": "Anti-static bubble wrap 1.2m x 50m",
+        "quantity": 4.0,
+        "unit_price": 34.85,
+        "amount": 139.4
+      },
+      {
+        "description": "Laser toner cartridge CX-410 black",
+        "quantity": 1.0,
+        "unit_price": 89.22,
+        "amount": 89.22
+      },
+      {
+        "description": "Thermal transfer labels 4x6 (roll)",
+        "quantity": 10.0,
+        "unit_price": 16.89,
+        "amount": 168.9
+      },
+      {
+        "description": "M6 hex bolts, zinc plated (box 500)",
+        "quantity": 45.0,
+        "unit_price": 8.37,
+        "amount": 376.65
+      }
+    ],
+    "subtotal": 845.78,
+    "tax": 71.89,
+    "total": 917.67
+  }
+}

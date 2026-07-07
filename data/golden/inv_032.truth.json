@@ -1,0 +1,37 @@
+{
+  "doc_id": "inv_032",
+  "template": 1,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Silberhorn Kalibrierdienst AG",
+    "invoice_number": "0037877",
+    "invoice_date": "2026-02-11",
+    "due_date": "2026-03-28",
+    "currency": "CHF",
+    "line_items": [
+      {
+        "description": "HDPE crate 600x400x320",
+        "quantity": 32.0,
+        "unit_price": 16.28,
+        "amount": 520.96
+      },
+      {
+        "description": "Desk riser, dual monitor",
+        "quantity": 8.0,
+        "unit_price": 95.24,
+        "amount": 761.92
+      },
+      {
+        "description": "Freight surcharge, fuel adjustment",
+        "quantity": 1.0,
+        "unit_price": 27.45,
+        "amount": 27.45
+      }
+    ],
+    "subtotal": 1310.33,
+    "tax": null,
+    "total": 1310.33
+  }
+}

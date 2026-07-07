@@ -1,0 +1,25 @@
+{
+  "doc_id": "inv_031",
+  "template": 0,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Cedar Hollow Catering LLC",
+    "invoice_number": "SI/075629",
+    "invoice_date": "2026-05-19",
+    "due_date": "2026-06-02",
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "A4 copier paper, 80gsm (5 ream box)",
+        "quantity": 4.0,
+        "unit_price": 24.52,
+        "amount": 98.08
+      }
+    ],
+    "subtotal": 98.08,
+    "tax": 8.34,
+    "total": 106.42
+  }
+}

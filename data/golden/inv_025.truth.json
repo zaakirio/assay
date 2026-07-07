@@ -1,0 +1,37 @@
+{
+  "doc_id": "inv_025",
+  "template": 4,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Northwind Fastener Supply Ltd",
+    "invoice_number": "2026-25205",
+    "invoice_date": "2026-01-24",
+    "due_date": "2026-03-25",
+    "currency": "GBP",
+    "line_items": [
+      {
+        "description": "Freight surcharge, fuel adjustment",
+        "quantity": 1.0,
+        "unit_price": 30.12,
+        "amount": 30.12
+      },
+      {
+        "description": "Ergonomic task chair, charcoal",
+        "quantity": 3.0,
+        "unit_price": 184.59,
+        "amount": 553.77
+      },
+      {
+        "description": "Warehouse marking tape, yellow 75mm",
+        "quantity": 8.0,
+        "unit_price": 5.21,
+        "amount": 41.68
+      }
+    ],
+    "subtotal": 625.57,
+    "tax": null,
+    "total": 625.57
+  }
+}

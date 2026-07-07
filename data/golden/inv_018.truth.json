@@ -1,0 +1,37 @@
+{
+  "doc_id": "inv_018",
+  "template": 2,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Valmont & Cie Reprographie",
+    "invoice_number": "2026-86456",
+    "invoice_date": "2026-02-17",
+    "due_date": "2026-04-03",
+    "currency": "EUR",
+    "line_items": [
+      {
+        "description": "Ergonomic task chair, charcoal",
+        "quantity": 3.0,
+        "unit_price": 180.03,
+        "amount": 540.09
+      },
+      {
+        "description": "M6 hex bolts, zinc plated (box 500)",
+        "quantity": 51.0,
+        "unit_price": 8.78,
+        "amount": 447.78
+      },
+      {
+        "description": "Machine coolant concentrate 20L",
+        "quantity": 3.0,
+        "unit_price": 75.71,
+        "amount": 227.13
+      }
+    ],
+    "subtotal": 1215.0,
+    "tax": 230.85,
+    "total": 1445.85
+  }
+}

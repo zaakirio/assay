@@ -1,0 +1,31 @@
+{
+  "doc_id": "inv_030",
+  "template": 4,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Valmont & Cie Reprographie",
+    "invoice_number": "0057477",
+    "invoice_date": "2026-03-17",
+    "due_date": "2026-05-16",
+    "currency": "EUR",
+    "line_items": [
+      {
+        "description": "Machine coolant concentrate 20L",
+        "quantity": 3.0,
+        "unit_price": 75.23,
+        "amount": 225.69
+      },
+      {
+        "description": "Desk riser, dual monitor",
+        "quantity": 8.0,
+        "unit_price": 103.46,
+        "amount": 827.68
+      }
+    ],
+    "subtotal": 1053.37,
+    "tax": 200.14,
+    "total": 1253.51
+  }
+}

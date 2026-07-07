@@ -1,0 +1,289 @@
+{
+  "doc_id": "inv_020",
+  "template": 4,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Silberhorn Kalibrierdienst AG",
+    "invoice_number": "2026-79515",
+    "invoice_date": "2026-03-25",
+    "due_date": "2026-04-24",
+    "currency": "CHF",
+    "line_items": [
+      {
+        "description": "Site delivery and unloading",
+        "quantity": 1.0,
+        "unit_price": 68.68,
+        "amount": 68.68
+      },
+      {
+        "description": "Thermal transfer labels 4x6 (roll)",
+        "quantity": 5.0,
+        "unit_price": 17.98,
+        "amount": 89.9
+      },
+      {
+        "description": "Cable tray 2m galvanised",
+        "quantity": 19.0,
+        "unit_price": 10.83,
+        "amount": 205.77
+      },
+      {
+        "description": "Sandwich platter, mixed (serves 10)",
+        "quantity": 3.0,
+        "unit_price": 50.96,
+        "amount": 152.88
+      },
+      {
+        "description": "Warehouse marking tape, yellow 75mm",
+        "quantity": 18.0,
+        "unit_price": 5.15,
+        "amount": 92.7
+      },
+      {
+        "description": "Calibration service, torque wrench",
+        "quantity": 1.0,
+        "unit_price": 52.68,
+        "amount": 52.68
+      },
+      {
+        "description": "Anti-static bubble wrap 1.2m x 50m",
+        "quantity": 6.0,
+        "unit_price": 31.05,
+        "amount": 186.3
+      },
+      {
+        "description": "Machine coolant concentrate 20L",
+        "quantity": 2.0,
+        "unit_price": 68.25,
+        "amount": 136.5
+      },
+      {
+        "description": "Two-way radio battery pack NX-220",
+        "quantity": 4.0,
+        "unit_price": 41.18,
+        "amount": 164.72
+      },
+      {
+        "description": "Stainless worktop bracket 300mm",
+        "quantity": 60.0,
+        "unit_price": 6.78,
+        "amount": 406.8
+      },
+      {
+        "description": "Laser toner cartridge CX-410 black",
+        "quantity": 1.0,
+        "unit_price": 97.52,
+        "amount": 97.52
+      },
+      {
+        "description": "Espresso beans, dark roast 1kg",
+        "quantity": 7.0,
+        "unit_price": 20.72,
+        "amount": 145.04
+      },
+      {
+        "description": "Freight surcharge, fuel adjustment",
+        "quantity": 1.0,
+        "unit_price": 31.2,
+        "amount": 31.2
+      },
+      {
+        "description": "Pallet wrap, 500mm x 300m",
+        "quantity": 25.0,
+        "unit_price": 13.52,
+        "amount": 338.0
+      },
+      {
+        "description": "HDPE crate 600x400x320",
+        "quantity": 31.0,
+        "unit_price": 12.85,
+        "amount": 398.35
+      },
+      {
+        "description": "Nitrile gloves, size L (box 100)",
+        "quantity": 12.0,
+        "unit_price": 8.97,
+        "amount": 107.64
+      },
+      {
+        "description": "Desk riser, dual monitor",
+        "quantity": 7.0,
+        "unit_price": 107.44,
+        "amount": 752.08
+      },
+      {
+        "description": "Ergonomic task chair, charcoal",
+        "quantity": 4.0,
+        "unit_price": 195.53,
+        "amount": 782.12
+      },
+      {
+        "description": "M6 hex bolts, zinc plated (box 500)",
+        "quantity": 48.0,
+        "unit_price": 8.71,
+        "amount": 418.08
+      },
+      {
+        "description": "A4 copier paper, 80gsm (5 ream box)",
+        "quantity": 10.0,
+        "unit_price": 24.18,
+        "amount": 241.8
+      },
+      {
+        "description": "Site delivery and unloading",
+        "quantity": 1.0,
+        "unit_price": 62.07,
+        "amount": 62.07
+      },
+      {
+        "description": "Thermal transfer labels 4x6 (roll)",
+        "quantity": 7.0,
+        "unit_price": 18.18,
+        "amount": 127.26
+      },
+      {
+        "description": "Cable tray 2m galvanised",
+        "quantity": 25.0,
+        "unit_price": 11.12,
+        "amount": 278.0
+      },
+      {
+        "description": "Sandwich platter, mixed (serves 10)",
+        "quantity": 4.0,
+        "unit_price": 56.21,
+        "amount": 224.84
+      },
+      {
+        "description": "Warehouse marking tape, yellow 75mm",
+        "quantity": 15.0,
+        "unit_price": 6.33,
+        "amount": 94.95
+      },
+      {
+        "description": "Calibration service, torque wrench",
+        "quantity": 1.0,
+        "unit_price": 61.97,
+        "amount": 61.97
+      },
+      {
+        "description": "Anti-static bubble wrap 1.2m x 50m",
+        "quantity": 5.0,
+        "unit_price": 34.46,
+        "amount": 172.3
+      },
+      {
+        "description": "Machine coolant concentrate 20L",
+        "quantity": 1.0,
+        "unit_price": 68.61,
+        "amount": 68.61
+      },
+      {
+        "description": "Two-way radio battery pack NX-220",
+        "quantity": 4.0,
+        "unit_price": 39.13,
+        "amount": 156.52
+      },
+      {
+        "description": "Stainless worktop bracket 300mm",
+        "quantity": 60.0,
+        "unit_price": 6.38,
+        "amount": 382.8
+      },
+      {
+        "description": "Laser toner cartridge CX-410 black",
+        "quantity": 2.0,
+        "unit_price": 87.54,
+        "amount": 175.08
+      },
+      {
+        "description": "Espresso beans, dark roast 1kg",
+        "quantity": 4.0,
+        "unit_price": 18.65,
+        "amount": 74.6
+      },
+      {
+        "description": "Freight surcharge, fuel adjustment",
+        "quantity": 1.0,
+        "unit_price": 30.53,
+        "amount": 30.53
+      },
+      {
+        "description": "Pallet wrap, 500mm x 300m",
+        "quantity": 13.0,
+        "unit_price": 12.56,
+        "amount": 163.28
+      },
+      {
+        "description": "HDPE crate 600x400x320",
+        "quantity": 27.0,
+        "unit_price": 13.72,
+        "amount": 370.44
+      },
+      {
+        "description": "Nitrile gloves, size L (box 100)",
+        "quantity": 3.0,
+        "unit_price": 9.36,
+        "amount": 28.08
+      },
+      {
+        "description": "Desk riser, dual monitor",
+        "quantity": 1.0,
+        "unit_price": 110.97,
+        "amount": 110.97
+      },
+      {
+        "description": "Ergonomic task chair, charcoal",
+        "quantity": 3.0,
+        "unit_price": 180.69,
+        "amount": 542.07
+      },
+      {
+        "description": "M6 hex bolts, zinc plated (box 500)",
+        "quantity": 5.0,
+        "unit_price": 9.2,
+        "amount": 46.0
+      },
+      {
+        "description": "A4 copier paper, 80gsm (5 ream box)",
+        "quantity": 11.0,
+        "unit_price": 19.57,
+        "amount": 215.27
+      },
+      {
+        "description": "Site delivery and unloading",
+        "quantity": 1.0,
+        "unit_price": 73.93,
+        "amount": 73.93
+      },
+      {
+        "description": "Thermal transfer labels 4x6 (roll)",
+        "quantity": 4.0,
+        "unit_price": 19.75,
+        "amount": 79.0
+      },
+      {
+        "description": "Cable tray 2m galvanised",
+        "quantity": 10.0,
+        "unit_price": 10.84,
+        "amount": 108.4
+      },
+      {
+        "description": "Sandwich platter, mixed (serves 10)",
+        "quantity": 4.0,
+        "unit_price": 55.5,
+        "amount": 222.0
+      },
+      {
+        "description": "Warehouse marking tape, yellow 75mm",
+        "quantity": 19.0,
+        "unit_price": 6.37,
+        "amount": 121.03
+      }
+    ],
+    "subtotal": 8858.76,
+    "tax": 717.56,
+    "total": 9576.32
+  }
+}

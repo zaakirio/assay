@@ -1,0 +1,37 @@
+{
+  "doc_id": "inv_014",
+  "template": 3,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Kestrel Logistics GmbH",
+    "invoice_number": "SI/020966",
+    "invoice_date": "2026-04-26",
+    "due_date": null,
+    "currency": "EUR",
+    "line_items": [
+      {
+        "description": "Cable tray 2m galvanised",
+        "quantity": 11.0,
+        "unit_price": 12.93,
+        "amount": 142.23
+      },
+      {
+        "description": "Thermal transfer labels 4x6 (roll)",
+        "quantity": 3.0,
+        "unit_price": 19.94,
+        "amount": 59.82
+      },
+      {
+        "description": "Anti-static bubble wrap 1.2m x 50m",
+        "quantity": 1.0,
+        "unit_price": 31.27,
+        "amount": 31.27
+      }
+    ],
+    "subtotal": 233.32,
+    "tax": 44.33,
+    "total": 277.65
+  }
+}

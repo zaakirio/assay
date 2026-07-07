@@ -1,0 +1,37 @@
+{
+  "doc_id": "inv_015",
+  "template": 4,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Blue Mesa Packaging Co.",
+    "invoice_number": "IN43504A",
+    "invoice_date": "2026-06-17",
+    "due_date": null,
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Machine coolant concentrate 20L",
+        "quantity": 1.0,
+        "unit_price": 79.34,
+        "amount": 79.34
+      },
+      {
+        "description": "Anti-static bubble wrap 1.2m x 50m",
+        "quantity": 4.0,
+        "unit_price": 32.51,
+        "amount": 130.04
+      },
+      {
+        "description": "Desk riser, dual monitor",
+        "quantity": 2.0,
+        "unit_price": 110.18,
+        "amount": 220.36
+      }
+    ],
+    "subtotal": null,
+    "tax": 36.53,
+    "total": 466.27
+  }
+}

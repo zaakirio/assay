@@ -1,0 +1,37 @@
+{
+  "doc_id": "inv_016",
+  "template": 0,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Yarrabee Office Interiors Pty Ltd",
+    "invoice_number": "SI/056631",
+    "invoice_date": "2026-05-22",
+    "due_date": "2026-06-21",
+    "currency": "AUD",
+    "line_items": [
+      {
+        "description": "Warehouse marking tape, yellow 75mm",
+        "quantity": 4.0,
+        "unit_price": 5.58,
+        "amount": 22.32
+      },
+      {
+        "description": "Freight surcharge, fuel adjustment",
+        "quantity": 1.0,
+        "unit_price": 26.98,
+        "amount": 26.98
+      },
+      {
+        "description": "Sandwich platter, mixed (serves 10)",
+        "quantity": 4.0,
+        "unit_price": 46.82,
+        "amount": 187.28
+      }
+    ],
+    "subtotal": 236.58,
+    "tax": 23.66,
+    "total": 260.24
+  }
+}

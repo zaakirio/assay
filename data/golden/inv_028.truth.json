@@ -1,0 +1,37 @@
+{
+  "doc_id": "inv_028",
+  "template": 2,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Yarrabee Office Interiors Pty Ltd",
+    "invoice_number": "2026-31539",
+    "invoice_date": "2026-02-09",
+    "due_date": "2026-02-23",
+    "currency": "AUD",
+    "line_items": [
+      {
+        "description": "Machine coolant concentrate 20L",
+        "quantity": 3.0,
+        "unit_price": 77.64,
+        "amount": 232.92
+      },
+      {
+        "description": "Desk riser, dual monitor",
+        "quantity": 1.0,
+        "unit_price": 101.56,
+        "amount": 101.56
+      },
+      {
+        "description": "Freight surcharge, fuel adjustment",
+        "quantity": 1.0,
+        "unit_price": 31.83,
+        "amount": 31.83
+      }
+    ],
+    "subtotal": 366.31,
+    "tax": 36.63,
+    "total": 402.94
+  }
+}

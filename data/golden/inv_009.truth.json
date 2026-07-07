@@ -1,0 +1,37 @@
+{
+  "doc_id": "inv_009",
+  "template": 3,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Marlin Bay Marine Services",
+    "invoice_number": "IN73892A",
+    "invoice_date": "2026-01-01",
+    "due_date": null,
+    "currency": "NZD",
+    "line_items": [
+      {
+        "description": "Laser toner cartridge CX-410 black",
+        "quantity": 2.0,
+        "unit_price": 87.91,
+        "amount": 175.82
+      },
+      {
+        "description": "Warehouse marking tape, yellow 75mm",
+        "quantity": 22.0,
+        "unit_price": 5.94,
+        "amount": 130.68
+      },
+      {
+        "description": "Anti-static bubble wrap 1.2m x 50m",
+        "quantity": 4.0,
+        "unit_price": 32.41,
+        "amount": 129.64
+      }
+    ],
+    "subtotal": 436.14,
+    "tax": 65.42,
+    "total": 501.56
+  }
+}

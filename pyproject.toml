@@ -1,0 +1,34 @@
+[project]
+name = "assay"
+version = "0.1.0"
+description = "Enterprise invoice extraction pipeline with per-field evals"
+readme = "README.md"
+authors = [
+    { name = "zaakirio" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "pydantic>=2.13.4",
+    "pypdf>=6.14.2",
+    "reportlab>=5.0.0",
+]
+
+[project.optional-dependencies]
+obs = ["langfuse>=3.0.0"]
+sroie = ["pyarrow>=17.0.0"]
+
+[project.scripts]
+assay = "assay.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.9.17,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

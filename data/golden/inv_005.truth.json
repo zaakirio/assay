@@ -1,0 +1,37 @@
+{
+  "doc_id": "inv_005",
+  "template": 4,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Hokusei Precision Tools KK",
+    "invoice_number": "IN64786A",
+    "invoice_date": "2026-03-08",
+    "due_date": "2026-04-07",
+    "currency": "JPY",
+    "line_items": [
+      {
+        "description": "Site delivery and unloading",
+        "quantity": 1.0,
+        "unit_price": 9376.0,
+        "amount": 9376.0
+      },
+      {
+        "description": "Thermal transfer labels 4x6 (roll)",
+        "quantity": 9.0,
+        "unit_price": 2763.0,
+        "amount": 24867.0
+      },
+      {
+        "description": "Stainless worktop bracket 300mm",
+        "quantity": 75.0,
+        "unit_price": 1020.0,
+        "amount": 76500.0
+      }
+    ],
+    "subtotal": 110743.0,
+    "tax": 11074.0,
+    "total": 121817.0
+  }
+}

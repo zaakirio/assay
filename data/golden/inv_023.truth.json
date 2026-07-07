@@ -1,0 +1,37 @@
+{
+  "doc_id": "inv_023",
+  "template": 2,
+  "ambiguous": true,
+  "ambiguity_kind": "conflicting_totals",
+  "expected_route": "review",
+  "invoice": {
+    "vendor": "Redfern & Gale Stationers",
+    "invoice_number": "SI/003861",
+    "invoice_date": "2026-05-22",
+    "due_date": "2026-07-06",
+    "currency": "GBP",
+    "line_items": [
+      {
+        "description": "Site delivery and unloading",
+        "quantity": 1.0,
+        "unit_price": 72.34,
+        "amount": 72.34
+      },
+      {
+        "description": "Freight surcharge, fuel adjustment",
+        "quantity": 1.0,
+        "unit_price": 27.15,
+        "amount": 27.15
+      },
+      {
+        "description": "Stainless worktop bracket 300mm",
+        "quantity": 58.0,
+        "unit_price": 6.49,
+        "amount": 376.42
+      }
+    ],
+    "subtotal": 475.91,
+    "tax": 95.18,
+    "total": 571.09
+  }
+}

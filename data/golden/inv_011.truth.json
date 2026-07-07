@@ -1,0 +1,31 @@
+{
+  "doc_id": "inv_011",
+  "template": 0,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Redfern & Gale Stationers",
+    "invoice_number": "SI/066344",
+    "invoice_date": "2026-06-11",
+    "due_date": "2026-07-11",
+    "currency": "GBP",
+    "line_items": [
+      {
+        "description": "Stainless worktop bracket 300mm",
+        "quantity": 14.0,
+        "unit_price": 7.33,
+        "amount": 102.62
+      },
+      {
+        "description": "Nitrile gloves, size L (box 100)",
+        "quantity": 5.0,
+        "unit_price": 8.91,
+        "amount": 44.55
+      }
+    ],
+    "subtotal": 147.17,
+    "tax": 29.43,
+    "total": 176.6
+  }
+}

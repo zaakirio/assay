@@ -1,0 +1,43 @@
+{
+  "doc_id": "inv_003",
+  "template": 2,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Blue Mesa Packaging Co.",
+    "invoice_number": "SI/027560",
+    "invoice_date": "2026-03-06",
+    "due_date": "2026-04-05",
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Machine coolant concentrate 20L",
+        "quantity": 1.0,
+        "unit_price": 79.37,
+        "amount": 79.37
+      },
+      {
+        "description": "Two-way radio battery pack NX-220",
+        "quantity": 3.0,
+        "unit_price": 48.03,
+        "amount": 144.09
+      },
+      {
+        "description": "Laser toner cartridge CX-410 black",
+        "quantity": 1.0,
+        "unit_price": 98.26,
+        "amount": 98.26
+      },
+      {
+        "description": "A4 copier paper, 80gsm (5 ream box)",
+        "quantity": 7.0,
+        "unit_price": 20.84,
+        "amount": 145.88
+      }
+    ],
+    "subtotal": 467.6,
+    "tax": 39.75,
+    "total": 507.35
+  }
+}

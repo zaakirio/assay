@@ -1,0 +1,37 @@
+{
+  "doc_id": "inv_007",
+  "template": 1,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Cedar Hollow Catering LLC",
+    "invoice_number": "INV-78604",
+    "invoice_date": "2026-02-18",
+    "due_date": "2026-04-19",
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Sandwich platter, mixed (serves 10)",
+        "quantity": 1.0,
+        "unit_price": 58.12,
+        "amount": 58.12
+      },
+      {
+        "description": "HDPE crate 600x400x320",
+        "quantity": 20.0,
+        "unit_price": 15.82,
+        "amount": 316.4
+      },
+      {
+        "description": "Cable tray 2m galvanised",
+        "quantity": 33.0,
+        "unit_price": 11.89,
+        "amount": 392.37
+      }
+    ],
+    "subtotal": 766.89,
+    "tax": null,
+    "total": 766.89
+  }
+}

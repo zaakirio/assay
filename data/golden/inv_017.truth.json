@@ -1,0 +1,25 @@
+{
+  "doc_id": "inv_017",
+  "template": 1,
+  "ambiguous": false,
+  "ambiguity_kind": null,
+  "expected_route": "auto",
+  "invoice": {
+    "vendor": "Hokusei Precision Tools KK",
+    "invoice_number": "2026-25244",
+    "invoice_date": "2026-06-10",
+    "due_date": "2026-08-09",
+    "currency": "JPY",
+    "line_items": [
+      {
+        "description": "Machine coolant concentrate 20L",
+        "quantity": 3.0,
+        "unit_price": 11921.0,
+        "amount": 35763.0
+      }
+    ],
+    "subtotal": 35763.0,
+    "tax": 3576.0,
+    "total": 39339.0
+  }
+}
