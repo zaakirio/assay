@@ -37,7 +37,7 @@ Positional comparison was rejected: one inserted row would cascade into N failur
 
 ## Synthetic golden data, deterministic seed
 
-Real invoices carry real supplier data; a portfolio repo gets none of it.
+Real invoices carry real supplier data; a public repo gets none of it.
 The generator (reportlab, seed 42, byte-identical PDFs across runs) encodes the mess on purpose: 5 templates, 7 currencies, 6 date formats, label typos, missing fields, multi-page, handwritten-style notes, 3 designed ambiguities.
 Ground truth is emitted by the same code that renders the PDF, so labels cannot be wrong.
 
@@ -49,7 +49,7 @@ The real run showed this is the biggest engineering (non-model) failure source; 
 ## Provider-agnostic client, local reference run
 
 Everything speaks `/v1/chat/completions`, so `--url` swaps in any backend (cloud or bigger local model) and the same eval re-scores it.
-The measured numbers come from a small local model because it is the cheapest honest baseline; the swap-and-remeasure loop is the point of the project.
+The measured numbers come from a small local model because it is the cheapest fully reproducible baseline; the swap-and-remeasure loop is the point of the project.
 
 ## Two eval arms behind one dataset spec
 

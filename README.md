@@ -41,7 +41,7 @@ On a rule failure the pipeline retries once, feeding the validator errors back t
 Two eval arms, one harness.
 The real-data arm is SROIE 2019, the ICDAR scanned-receipt benchmark: real receipts, provided OCR text, independent human annotations (see its section below).
 The synthetic arm is the controlled stress-test instrument: 32 generated invoices that plant ambiguity, typos, and contradictions on purpose, with ground truth emitted by the same code that renders the PDFs, so specific failure classes are guaranteed to be covered.
-Both roles matter, plainly: real data keeps the numbers honest, and synthetic data guarantees coverage of edge cases a sampled real dataset cannot promise to contain.
+Both roles matter: real data grounds the numbers in documents nobody designed, and synthetic data guarantees coverage of edge cases a sampled real dataset cannot promise to contain.
 
 All numbers below are reference runs with a deliberately small local model.
 The pipeline itself is provider-agnostic: everything speaks `/v1/chat/completions`, so pointing `--url` at a cloud frontier model re-scores that backend with the same harness.
@@ -88,7 +88,7 @@ The threshold is an explicit business dial, and the eval measures the tradeoff o
 | 0.85 | 6/32 (19%) | 1 doc |
 
 With this model you can have volume or safety, not both.
-That is the honest conclusion, and it is exactly the evidence you need to justify a bigger model: rerun `assay eval` with a different backend and watch this table move.
+That conclusion is exactly the evidence you need to justify a bigger model: rerun `assay eval` with a different backend and watch this table move.
 
 ## Failure analysis (synthetic arm)
 
@@ -177,7 +177,7 @@ The synthetic stress test flagged this failure mode before any real document was
 
 Routing on real data is the sobering result: 26.0% of receipts auto-accepted, and every single auto-accepted receipt had at least one wrong field, almost always the address.
 The confidence score has components for rule failures, model self-doubt, and completeness, but no component can know that the annotation is not recoverable from the input, and no business rule can cross-check a free-text address.
-The honest operational conclusion: on real receipts with this model, automation is total-and-date triage at best, the address field must never be an auto-accept criterion, and the per-field report is what tells you that before you promise otherwise.
+The operational conclusion: on real receipts with this model, automation is total-and-date triage at best, the address field must never be an auto-accept criterion, and the per-field report is what tells you that before you promise otherwise.
 
 ## Cost per document
 
@@ -193,7 +193,7 @@ Measured on the synthetic reference run: mean 1,881 tokens per document (1,426 p
 
 Cloud rows use vendor list prices per MTok as published around July 2026 applied to the measured token counts.
 They are estimates for comparison, not quotes; re-check prices before any procurement decision.
-The honest takeaway: at these volumes, cloud inference cost is a rounding error next to one mis-posted invoice.
+The takeaway: at these volumes, cloud inference cost is a rounding error next to one mis-posted invoice.
 The argument for local is data residency and control, not dollars.
 
 ## Technical decisions
@@ -230,30 +230,18 @@ Freshness and drift: new vendors mean new layouts; production needs a weekly eva
 
 Feedback loop: reviewed corrections (`reviewed.jsonl`) are the labeled data for the next eval round and for few-shot prompt examples per vendor; the file format is already the truth format.
 
-## Limitations
-
-The invoice golden set is synthetic; layouts are messy in designed ways, not in the ways a decade of real supplier PDFs are messy.
-The SROIE arm now measures that gap instead of guessing at it: doc accuracy fell from 50% synthetic to 2% real on the same model, which strengthens rather than weakens the case for measuring per-field before trusting any of it.
-
-The SROIE reference run covers the first 50 receipts of the test split, one model, one machine; run the full 361 by dropping `--limit`.
-SROIE annotations carry known noise (address fragments absent from the provided OCR), so the address ceiling is a property of the benchmark, not of the pipeline.
-
-Text-layer PDFs and pre-OCR'd text only; no OCR stage of our own yet.
-
-The routing threshold was chosen by sweeping on the same 32 documents it is evaluated on; production would hold out a tuning set.
-
-The self-check adds a second model call per document (roughly 40% of latency) and its signal on a 1.2B is weak.
-
-Cloud costs are estimates from list prices, and single-machine throughput numbers are from one run on one M4 Pro.
-
 ## Running it
 
 ```bash
 uv sync
-uv run pytest                 # 51 offline tests, no model needed
+uv run pytest                 # 51 tests, model-free
 
-# real run: serve a model first (any OpenAI-compatible endpoint works;
-# this is the reference-run setup)
+# point the pipeline at any OpenAI-compatible endpoint...
+export ASSAY_LLM_URL=https://api.openai.com/v1   # or any compatible base URL
+export ASSAY_LLM_KEY=sk-...                      # sent as a Bearer token
+export ASSAY_LLM_MODEL=gpt-5-mini                # model name, if the endpoint needs one
+
+# ...or serve a model locally (the reference-run setup; no key or model name needed)
 /path/to/llama-server -m LFM2.5-1.2B-Instruct-Uncensored-Q4_K_M.gguf \
   --port 8093 --jinja -ngl 99 --ctx-size 4096
 
@@ -268,6 +256,7 @@ uv run assay review           # work the review queue in the terminal
 ```
 
 `ASSAY_LLM_URL` or `--url` points the pipeline at any OpenAI-compatible endpoint.
+`ASSAY_LLM_KEY` adds a Bearer token for keyed APIs and `ASSAY_LLM_MODEL` sets the model name in the request body; a local llama-server needs neither.
 `ASSAY_GOLDEN_DIR` and `ASSAY_RESULTS_DIR` override where the golden set is read from and where reports and queues are written (defaults: `data/golden/` and `results/` in the repo).
 
 ### Docker

@@ -1,7 +1,8 @@
-"""Minimal OpenAI-compatible chat client for llama.cpp's llama-server.
-Structured output goes through response_format json_schema, which llama.cpp
-compiles to a GBNF grammar (constrained decoding), so the model cannot emit
-structurally invalid JSON."""
+"""Minimal OpenAI-compatible chat client.
+Structured output goes through response_format json_schema; llama.cpp
+compiles it to a GBNF grammar (constrained decoding), so the model cannot
+emit structurally invalid JSON. Keyed cloud endpoints work via ASSAY_LLM_KEY
+(Bearer token) and ASSAY_LLM_MODEL (model name in the request body)."""
 
 import os
 from dataclasses import dataclass
@@ -9,6 +10,8 @@ from dataclasses import dataclass
 import httpx
 
 DEFAULT_BASE_URL = os.environ.get("ASSAY_LLM_URL", "http://127.0.0.1:8093/v1")
+DEFAULT_API_KEY = os.environ.get("ASSAY_LLM_KEY")
+DEFAULT_MODEL = os.environ.get("ASSAY_LLM_MODEL")
 
 
 @dataclass
@@ -19,9 +22,12 @@ class LLMResult:
 
 
 class LLMClient:
-    def __init__(self, base_url: str = DEFAULT_BASE_URL, timeout: float = 300.0):
+    def __init__(self, base_url: str = DEFAULT_BASE_URL, timeout: float = 300.0,
+                 api_key: str | None = DEFAULT_API_KEY, model: str | None = DEFAULT_MODEL):
         self.base_url = base_url.rstrip("/")
-        self._http = httpx.Client(timeout=timeout)
+        self.model = model
+        headers = {"Authorization": f"Bearer {api_key}"} if api_key else {}
+        self._http = httpx.Client(timeout=timeout, headers=headers)
 
     def chat(self, messages: list[dict], json_schema: dict | None = None,
              max_tokens: int = 2048, temperature: float = 0.0) -> LLMResult:
@@ -30,6 +36,8 @@ class LLMClient:
             "max_tokens": max_tokens,
             "temperature": temperature,
         }
+        if self.model:
+            body["model"] = self.model
         if json_schema is not None:
             body["response_format"] = {
                 "type": "json_schema",
