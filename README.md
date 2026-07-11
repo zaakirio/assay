@@ -234,7 +234,7 @@ Feedback loop: reviewed corrections (`reviewed.jsonl`) are the labeled data for 
 
 ```bash
 uv sync
-uv run pytest                 # 51 tests, model-free
+uv run --group dev pytest     # 51 tests, model-free
 
 # point the pipeline at any OpenAI-compatible endpoint...
 export ASSAY_LLM_URL=https://api.openai.com/v1   # or any compatible base URL
